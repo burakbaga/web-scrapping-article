@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hürriyet</title>
+</head>
+<body>
+    <div>
+        <h1>HÜRRİYET KÖŞESİ</h1>
+    </div>
+
+    <div>
+        {% for kose in koseler %}
+        <div>
+            <h1>{{kose.yazar}}</h1>
+            <h1>{{kose.baslik}}</h1>
+            <p>{{kose.yazi}}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+
+</body>
+</html>
