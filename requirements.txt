@@ -1,2 +1,3 @@
 requests
+bs4
 Django~=2.0.6
